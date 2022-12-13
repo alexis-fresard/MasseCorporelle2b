@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_margin">30dp</dimen>
+    <dimen name="main_img_size">64dp</dimen>
+    <dimen name="main_textview_size">10dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="main_marginright_button_effacer">135dp</dimen>
+    <dimen name="main_margintop_relativelayout">275dp</dimen>
+    <dimen name="main_marginright_button_calculer">10dp</dimen>
+    <dimen name="main_TextSize">70dp</dimen>
+</resources>

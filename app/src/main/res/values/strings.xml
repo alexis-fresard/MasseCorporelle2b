@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MasseCorporelle2b</string>
+    <string name="main_title">IMC Calculator</string>
+    <string name="main_poid_label">Enter weight</string>
+    <string name="main_taille_label">Enter height</string>
+    <string name="main_margin_textview_poid">Saisissez un poid</string>
+    <string name="main_margin_textview_taille">Saisissez une taille</string>
+    <string name="main_boutton_calculer">Calculer</string>
+    <string name="main_boutton_effacer">Effacer</string>
+    <string name="main_result_title">Résultat</string>
+    <string name="main_Valeur_IMC">20</string>
+    <string name="main_Niveau_IMC">Vous êtes dans le niveau ...</string>
+</resources>

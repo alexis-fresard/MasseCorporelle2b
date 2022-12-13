@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_margin"
+            android:gravity="center"
+            android:background="@color/purple_500"
+            android:textColor="@color/white"
+            android:text="@string/main_title" />
+
+        <ImageView
+            android:layout_width="@dimen/main_img_size"
+            android:layout_height="@dimen/main_img_size"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/weightlogo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:text="@string/main_margin_textview_poid" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/main_poid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_poid_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/main_poid_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:text="@string/main_margin_textview_taille" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/main_taille_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_taille_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/main_talle_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_margintop_relativelayout">
+
+        <Button
+            android:id="@+id/main_calculer_filledButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_boutton_calculer"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/main_marginright_button_calculer"
+            />
+
+        <Button
+            android:id="@+id/main_effacer_outlinedButton"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="135dp"
+            android:text="@string/main_boutton_effacer" />
+
+    </RelativeLayout>
+
+</LinearLayout>
